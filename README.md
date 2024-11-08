@@ -60,3 +60,14 @@
 - 탐색 위치와 기본 스캔 대상
 - 필터
 - 중복 등록과 충돌
+
+## [Section08](https://github.com/iieunji023/spring-core/blob/main/%EC%84%B9%EC%85%9808.md)
+- 다양한 의존관계 주입 방법
+- 옵션 처리
+- 생성자 주입을 선택해라! 
+- 롬복과 최신 트랜드
+- 조회 빈이 2개 이상 - 문제
+- @Autowired 필드 명, @Qualifier, @Primary
+- 애노테이션 직접 만들기
+- 조회한 빈이 모두 필요할 때, List, Map
+- 자동, 수동의 올바른 실무 운영 기쥰
