@@ -12,15 +12,7 @@ import org.springframework.context.annotation.FilterType;
 // Configuration 어노테이션이 붙은 애들을 다 빼겠다
 // -> AppConfig도 Configuration 어노테이션 붙어있는데 이럴 경우 충돌이 날 수 있음
 @ComponentScan(
-        basePackages = "hello.core.member", // 어디서부터 탐색할지 지정할 수 있음
-        basePackageClasses = AutoAppConfig.class,
         excludeFilters = @ComponentScan.Filter(type = FilterType.ANNOTATION, classes = Configuration.class)
 )
 public class AutoAppConfig {
-
-    @Bean(name="memoryMemberRepository")
-    MemoryMemberRepository memberRepository() {
-        return new MemoryMemberRepository();
-    }
-
 }
