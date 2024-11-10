@@ -79,7 +79,6 @@
 - 애노테이션 @PostConstruct, @PreDestroy
 
 ## [Section10](https://github.com/iieunji023/spring-core/blob/main/%EC%84%B9%EC%85%9810.md)
-9. 빈 스코프
 - 빈 스코프란?
 - 프로토타입 스코프
 - 프로토타입 스코프 - 싱글톤 빈과 함께 사용시 문제점
